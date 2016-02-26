@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">Karma</string>
+    <string name="karma">Karma</string>
+
+
+
+
+    <!--Menu strings-->
+    <string name="action_settings">Settings</string>
+
+    <!--Add Chat Dialog-->
+    <string name="create_chat_edit_text_hint">Create a chat</string>
+    <string name="action_remove_list">Remove list</string>
+    <string name="action_edit_list">Change name</string>
+    <string name="dialog_edit_text_change_chat_name">Edit Chat Name ...</string>
+    <string name="dialog_button_text">Edit Chat Name</string>
+    <string name="create_chat_button_text">Create</string>
+    <string name="dialog_button_change_chat_name">Edit</string>
+    <string name="dialog_add_message">Enter your message...</string>
+    <string name="dialog_add_message_button">Add Message</string>
+</resources>

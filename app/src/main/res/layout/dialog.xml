@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/transparent"
+    android:padding="16dp">
+
+    <EditText
+        android:id="@+id/dialog_edit_text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/create_chat_edit_text_hint"
+        android:imeOptions="actionDone|flagNoExtractUi"
+        android:inputType="textCapWords"
+        android:textColor="@android:color/black"
+        android:textColorHint="@color/dark_grey"/>
+
+    <Button
+        android:id="@+id/dialog_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAllCaps="false"
+        android:layout_below="@+id/dialog_edit_text"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:theme="@style/Button" />
+
+</RelativeLayout>
